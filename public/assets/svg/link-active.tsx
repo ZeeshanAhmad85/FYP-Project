@@ -1,0 +1,33 @@
+import React from "react";
+
+interface SvgProps {
+  width?: number;
+  height?: number;
+}
+
+const LinkActive: React.FC<SvgProps> = ({ width = 32, height = 32 }) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13.334 17.6387C13.5228 17.9479 13.7469 18.2405 14.0063 18.5104C15.6163 20.186 18.0703 20.448 19.9441 19.2963C20.2913 19.0828 20.6185 18.8209 20.9169 18.5104L25.2361 14.0152C27.1444 12.0291 27.1444 8.80901 25.2361 6.8229C23.3277 4.8368 20.2337 4.83681 18.3253 6.8229L17.374 7.81304"
+        stroke="white"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+      />
+      <path
+        d="M14.6277 24.1867L13.676 25.1771C11.7677 27.1632 8.6736 27.1632 6.76525 25.1771C4.85689 23.1909 4.85689 19.9709 6.76525 17.9848L11.0845 13.4896C12.9928 11.5035 16.0869 11.5035 17.9952 13.4896C18.2545 13.7593 18.4785 14.052 18.6673 14.3611"
+        stroke="white"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+};
+
+export default LinkActive;

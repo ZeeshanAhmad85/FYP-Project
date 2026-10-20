@@ -1,0 +1,56 @@
+// ManagePassword.tsx
+import React from "react";
+
+const ManagePassword: React.FC<SettingsProps> = ({ color = "#344054" }) => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M13.4082 16.6682C13.4082 16.6682 14.0332 16.6682 14.6582 18.0015C14.6582 18.0015 16.6435 14.6682 18.4082 14.0015"
+      stroke={color}
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M16.9434 7.00146H16.9524"
+      stroke={color}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M11.9434 7.00146H11.9524"
+      stroke={color}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M6.94336 7.00146H6.95234"
+      stroke={color}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M7.89193 11.9685H5.00845C3.34693 11.9685 2 10.6254 2 8.9685V4.99854C2 3.34168 3.34693 1.99854 5.00845 1.99854H18.9916C20.6531 1.99854 22 3.34168 22 4.99854V9.12944"
+      stroke={color}
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M21.9986 16.0015C21.9986 12.6878 19.3047 10.0015 15.9817 10.0015C12.6587 10.0015 9.96484 12.6878 9.96484 16.0015C9.96484 19.3152 12.6587 22.0015 15.9817 22.0015C19.3047 22.0015 21.9986 19.3152 21.9986 16.0015Z"
+      stroke={color}
+      strokeWidth="1.5"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+
+export default ManagePassword;

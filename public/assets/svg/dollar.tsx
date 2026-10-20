@@ -1,0 +1,31 @@
+import React from "react";
+
+const Dollar: React.FC<IconProps> = ({
+  color = "#D0D5DD",
+  width = 32,
+  height = 32,
+}) => (
+  <svg
+    width={width}
+    height={height}
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M24.5559 10.8642C24.5559 7.80959 20.7254 5.33334 16.0003 5.33334C11.2752 5.33334 7.44477 7.80959 7.44477 10.8642C7.44477 13.9188 9.7781 15.6049 16.0003 15.6049C22.2226 15.6049 25.3337 17.1852 25.3337 21.1359C25.3337 25.0864 21.155 26.6667 16.0003 26.6667C10.8457 26.6667 6.66699 24.1904 6.66699 21.1359"
+      stroke={color}
+      strokeWidth="1.5"
+      strokeLinecap="round"
+    />
+    <path
+      d="M16 2.66666V29.3333"
+      stroke={color}
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export default Dollar;
